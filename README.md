@@ -5,23 +5,23 @@ Bài tập của lớp Rails cơ bản
 #####Quy ước
 -----------------
 - Mỗi người tạo 1 repository tren github
-- Tao 1 branch tren repository vua tao ra
+- Tạo 1 branch trên repository vừa tạo ra
 - Tên branch là tên học viên viết thường, không dấu, cách nhau bởi dấu "-" (ex: học viên Nguyễn Văn A sẽ tạo branch nguyen-van-a)
-- Tao 1 pull request khi hoan thanh bai tap, gui link toi email cua giao vien huong dan, thoi gian update pull-request duoc xem la thoi gian nop bai
+- Tạo 1 pull request khi hoàn thành bài tập, gửi link tới email của giáo viên hướng dẫn, thời gian update pull-request được xem là thời gian nộp bài
+- Bài tập phải nộp trước 23h:59 ngày 9-12-2014
 
 #####Yêu cầu
 ---------------------
-- Viết một ứng dụng quản lý , moi san pham thuoc ve 1 hoac nhieu category, san pham co thong tin mo ta, gia ca, hinh minh hoa
+- Viết một ứng dụng quản lý cửa hàng bán giầy, mỗi đôi giày thuộc về 1 hoặc nhiều loại, do 1 công ty sản xuất, có thông tin mô tả, giá bán và hình minh họa
   - ứng dụng gồm 2 roles: admin và user
-  - layout cua moi role duoc lay trong thu muc templates/
-  - user khong duoc thay doi, xoa
-  - co predefined data(category, product)
+  - layout của mỗi role được lấy trong thư mục templates/ của repository nàyẫuẫu
+  - user không được cập nhật/xóa thông tin sản phẩm
+  - ứng dụng phải có predefined data(loại giầy, công ty sản xuất, một số đôi giày mẫu)
 - Admin
-  - admin duoc phep thay doi, xoa
-  - xem report san pham: so lan khach hang xem san pham, so san pham co trong gio hang, sap xep theo so lan duoc xem, sau do sap xep theo ten san pham
+  - admin được phép thay đổi/xóa sản phẩm
+  - xem report sản phẩm: số lần khách hàng xem sản phẩm, san pham duoc sap xep theo ten san pham
   - admin co the active/deactive 1 category nao do
 - User
-  - xem tat ca san pham, cho phep chon sap xep san pham theo ten hoac theo gia, co phan trang
-  - xem san pham theo categoryaam
-  - nhan xet san pham
-  - them san pham vao gio hang
+  - xem tat ca san pham, co phan trang
+  - xem nhung doi giay thuoc mot loai nao do
+  - danh gia san pham(them comment)
