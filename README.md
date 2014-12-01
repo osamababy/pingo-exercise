@@ -12,9 +12,9 @@ Bài tập của lớp Rails cơ bản
 
 #####Yêu cầu
 ---------------------
-- Viết một ứng dụng quản lý cửa hàng bán giầy, mỗi đôi giày thuộc về 1 hoặc nhiều loại, do 1 công ty sản xuất, có thông tin mô tả, giá bán và hình minh họa
+- Viết một ứng dụng quản lý cửa hàng bán giày, mỗi đôi giày thuộc về 1 hoặc nhiều loại, do 1 công ty sản xuất, có thông tin mô tả, giá bán và hình minh họa
   - ứng dụng gồm 2 roles: admin và user
-  - layout của mỗi role được lấy trong thư mục templates/ của repository nàyẫuẫu
+  - layout của mỗi role được lấy trong thư mục templates/ của repository này
   - user không được cập nhật/xóa thông tin sản phẩm
   - ứng dụng phải có predefined data(loại giầy, công ty sản xuất, một số đôi giày mẫu)
 - Admin
