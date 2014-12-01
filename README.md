@@ -29,3 +29,6 @@ Bài tập của lớp Rails cơ bản
     - phần còn lại hiển thị tất cả sản phẩm, có phân trang, sắp xếp theo giá sản phẩm từ cao xuống thấp.
   - có thể xem những sản phẩm thuộc một loại nào đó khi click vào link loại giày
   - có thể đánh giá sản phẩm(thêm comment) ở trang chi tiết sản phẩm
+
+----------
+Duong Van Long
