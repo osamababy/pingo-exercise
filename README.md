@@ -17,11 +17,14 @@ Bài tập của lớp Rails cơ bản
   - layout của mỗi role được lấy trong thư mục templates/ của repository này
   - user không được cập nhật/xóa thông tin sản phẩm
   - ứng dụng phải có predefined data(loại giầy, công ty sản xuất, một số đôi giày mẫu)
-- Admin
+- Adminalidation
   - admin được phép thay đổi/xóa sản phẩm
-  - xem report sản phẩm: số lần khách hàng xem sản phẩm, san pham duoc sap xep theo ten san pham
-  - admin co the active/deactive 1 category nao do
+  - thêm/xoá/sửa sp phải kiểm tra tính hợp lệ
+  - xem report sản phẩm: gồm có số lần khách hàng xem sản phẩm, sản phẩm được xếp theo tên nhà sản xuất, sau đó theo tên sp
+  - admin có thể active/deactive 1 công ty sản xuất nào đó.
 - User
-  - xem tat ca san pham, co phan trang
-  - xem nhung doi giay thuoc mot loai nao do
-  - danh gia san pham(them comment)
+  - trang chủ:
+    - hiển thị những sản phẩm được xem nhiều nhất trên 1 row 
+    - phần còn lại hiển thị tất cả sản phẩm, có phân trang, sắp xếp theo giá sản phẩm từ cao xuống thấp.
+  - xem những sản phẩm thuộc một loại nào đó
+  - đánh giá sản phẩm(thêm comment)
