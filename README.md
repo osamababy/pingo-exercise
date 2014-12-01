@@ -8,7 +8,8 @@ Bài tập của lớp Rails cơ bản
 - Tạo 1 branch trên repository vừa tạo ra
 - Tên branch là tên học viên viết thường, không dấu, cách nhau bởi dấu "-" (ex: học viên Nguyễn Văn A sẽ tạo branch nguyen-van-a)
 - Tạo 1 pull request khi hoàn thành bài tập, gửi link tới email của giáo viên hướng dẫn, thời gian update pull-request được xem là thời gian nộp bài
-- Bài tập phải nộp trước 23h:59 ngày 9-12-2014
+- Comment(nếu có) và điểm sẽ được update trên pull request
+- Bài tập phải nộp trước 23h:59:59 ngày 9-12-2014
 
 #####Yêu cầu
 ---------------------
@@ -16,8 +17,8 @@ Bài tập của lớp Rails cơ bản
   - ứng dụng gồm 2 roles: admin và user
   - layout của mỗi role được lấy trong thư mục templates/ của repository này
   - user không được cập nhật/xóa thông tin sản phẩm
-  - ứng dụng phải có predefined data(loại giầy, công ty sản xuất, một số đôi giày mẫu)
-- Adminalidation
+  - ứng dụng phải có pre-defined data(loại giầy, công ty sản xuất, một số đôi giày mẫu), hình minh hoạ của pre-defined data có thể để trống
+- Admin
   - admin được phép thay đổi/xóa sản phẩm
   - thêm/xoá/sửa sp phải kiểm tra tính hợp lệ
   - xem report sản phẩm: gồm có số lần khách hàng xem sản phẩm, sản phẩm được xếp theo tên nhà sản xuất, sau đó theo tên sp
@@ -26,5 +27,5 @@ Bài tập của lớp Rails cơ bản
   - trang chủ:
     - hiển thị những sản phẩm được xem nhiều nhất trên 1 row 
     - phần còn lại hiển thị tất cả sản phẩm, có phân trang, sắp xếp theo giá sản phẩm từ cao xuống thấp.
-  - xem những sản phẩm thuộc một loại nào đó
-  - đánh giá sản phẩm(thêm comment)
+  - có thể xem những sản phẩm thuộc một loại nào đó khi click vào link loại giày
+  - có thể đánh giá sản phẩm(thêm comment) ở trang chi tiết sản phẩm
